@@ -1,0 +1,36 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6FC4832245A6A8E50F2A782F20A8B58A46BD1FEB" : 0,
+    "44B36422A7A7C3AD3DE414BC27AA89E3C0009BBA" : 0,
+    "B5EA45284829F65E890A38F99D4461F0C01E09F2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "936E2B83-BFF9-44D5-863B-D85788643489",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6FC4832245A6A8E50F2A782F20A8B58A46BD1FEB" : "CCPageViewController\/CCPageViewController\/Vendors\/Masonry\/",
+    "44B36422A7A7C3AD3DE414BC27AA89E3C0009BBA" : "CCPageViewController\/CCPageViewController\/Vendors\/PINCache\/",
+    "B5EA45284829F65E890A38F99D4461F0C01E09F2" : "CCPageViewController\/CCPageViewController\/Vendors\/FMMoveTableView\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CCPageViewController",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CCPageViewController.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pinterest\/PINCache.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "44B36422A7A7C3AD3DE414BC27AA89E3C0009BBA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SnapKit\/Masonry.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6FC4832245A6A8E50F2A782F20A8B58A46BD1FEB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/FlorianMielke\/FMMoveTableView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B5EA45284829F65E890A38F99D4461F0C01E09F2"
+    }
+  ]
+}

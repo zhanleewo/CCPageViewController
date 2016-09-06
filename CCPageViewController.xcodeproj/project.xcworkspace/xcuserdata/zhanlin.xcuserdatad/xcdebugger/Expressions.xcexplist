@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[CCContentsView reloadData]:CCContentsView.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CCContentsView placePlaceholder:atIndex:]:CCContentsView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "_scrollView.frame.size.width">
+            </PersistentString>
+            <PersistentString
+               value = " placeholder.frame ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CCContentsView layoutSubviews]:CCContentsView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.scrollView.frame.size.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ViewController pageViewController:didClickRightButton:]:ViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CCContentsView _setupSubviews]:CCContentsView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.frame.size.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
