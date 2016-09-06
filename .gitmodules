@@ -1,11 +1,9 @@
 [submodule "CCPageViewController/Vendors/FMMoveTableView"]
 	path = CCPageViewController/Vendors/FMMoveTableView
 	url = https://github.com/FlorianMielke/FMMoveTableView.git
-
 [submodule "CCPageViewController/Vendors/Masonry"]
 	path = CCPageViewController/Vendors/Masonry
 	url = https://github.com/SnapKit/Masonry.git
-
 [submodule "CCPageViewController/Vendors/PINCache"]
 	path = CCPageViewController/Vendors/PINCache
 	url = https://github.com/pinterest/PINCache.git
