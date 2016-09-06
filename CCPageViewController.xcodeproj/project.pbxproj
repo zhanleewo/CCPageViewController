@@ -713,6 +713,7 @@
 				GCC_PREFIX_HEADER = "CCPageViewController/CCPageViewController-Prefix.pch";
 				INFOPLIST_FILE = CCPageViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-DMAS_SHORTHAND";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aolc.CCPageViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -727,6 +728,7 @@
 				GCC_PREFIX_HEADER = "CCPageViewController/CCPageViewController-Prefix.pch";
 				INFOPLIST_FILE = CCPageViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-DMAS_SHORTHAND";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aolc.CCPageViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

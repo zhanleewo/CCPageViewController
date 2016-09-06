@@ -1,17 +1,20 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D1B1F295B381F671E65D118705CFDD27563C1C70",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "6FC4832245A6A8E50F2A782F20A8B58A46BD1FEB" : 0,
     "44B36422A7A7C3AD3DE414BC27AA89E3C0009BBA" : 0,
-    "B5EA45284829F65E890A38F99D4461F0C01E09F2" : 0
+    "D1B1F295B381F671E65D118705CFDD27563C1C70" : 0,
+    "B5EA45284829F65E890A38F99D4461F0C01E09F2" : 0,
+    "6FC4832245A6A8E50F2A782F20A8B58A46BD1FEB" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "936E2B83-BFF9-44D5-863B-D85788643489",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "6FC4832245A6A8E50F2A782F20A8B58A46BD1FEB" : "CCPageViewController\/CCPageViewController\/Vendors\/Masonry\/",
     "44B36422A7A7C3AD3DE414BC27AA89E3C0009BBA" : "CCPageViewController\/CCPageViewController\/Vendors\/PINCache\/",
-    "B5EA45284829F65E890A38F99D4461F0C01E09F2" : "CCPageViewController\/CCPageViewController\/Vendors\/FMMoveTableView\/"
+    "D1B1F295B381F671E65D118705CFDD27563C1C70" : "CCPageViewController\/",
+    "B5EA45284829F65E890A38F99D4461F0C01E09F2" : "CCPageViewController\/CCPageViewController\/Vendors\/FMMoveTableView\/",
+    "6FC4832245A6A8E50F2A782F20A8B58A46BD1FEB" : "CCPageViewController\/CCPageViewController\/Vendors\/Masonry\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "CCPageViewController",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -31,6 +34,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/FlorianMielke\/FMMoveTableView.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B5EA45284829F65E890A38F99D4461F0C01E09F2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhanleewo\/CCPageViewController.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D1B1F295B381F671E65D118705CFDD27563C1C70"
     }
   ]
 }

@@ -1,6 +1,9 @@
 # CCPageViewController
 A simple Page Menu View Controller, Easy to customize, UITableView-like API.
 
+## Demo
+![Demo] (demo.gif)
+
 
 ## How To Use
 1. setup

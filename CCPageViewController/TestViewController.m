@@ -100,6 +100,7 @@
 - (UIViewController * _Nonnull) pageViewController:(CCPageViewController * _Nonnull) pageViewController contentViewControllerForIndex: (NSUInteger) index {
     
     UIViewController *vc = [[UIViewController alloc] init];
+    
     vc.view.backgroundColor = _colors[index];
     return vc;
 }
