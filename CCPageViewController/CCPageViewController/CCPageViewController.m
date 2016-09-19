@@ -94,6 +94,14 @@
     [self.delegate pageViewController:self didSelectAtIndex:index];
 }
 
+- (UIViewController *_Nullable) selectedViewController {
+    return [_contentsView selectedViewController];
+}
+
+- (UIViewController *_Nullable) viewControllerAtIndex:(NSUInteger) index {
+    return [_contentsView viewControllerAtIndex:index];
+}
+
 - (void) reloadData {
     [_menu reloadData];
     [_contentsView reloadData];

@@ -33,6 +33,8 @@
 @property (nonatomic, nullable, weak) id<CCPageViewControllerDelegate> delegate;
 
 - (void) selectAtIndex:(NSUInteger) index;
+- (UIViewController *_Nullable) selectedViewController;
+- (UIViewController *_Nullable) viewControllerAtIndex:(NSUInteger) index;
 - (void) reloadData;
 
 @end

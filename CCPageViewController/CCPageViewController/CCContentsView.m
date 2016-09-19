@@ -95,6 +95,17 @@ typedef NS_ENUM(NSUInteger, CCDataSourceType) {
     [_scrollView addSubview:placeholder];
 }
 
+- (UIViewController *_Nullable) viewControllerAtIndex:(NSUInteger) index {
+    NSNumber *cachedViewKey = [NSNumber numberWithInteger:index];
+    UIViewController *cachedViewController = [_cachedContentViewControllers objectForKey:cachedViewKey];
+    return cachedViewController;
+}
+
+
+- (UIViewController *_Nullable) selectedViewController {
+    return [self viewControllerAtIndex: _currentIndex];
+}
+
 - (void) reloadData {
     if(self.dataSource == nil) {
         [NSException raise:@"dataSource could not be nil" format:@"CCContentsView's dataSource=%p", self.dataSource];

@@ -38,6 +38,9 @@ typedef NS_ENUM(NSUInteger, CCSensitivity) {
 @property (nonatomic, weak, nullable) id<CCContentsViewDataSource> dataSource;
 @property (nonatomic, weak, nullable) id<CCContentsViewDelegate> delegate;
 
+- (UIViewController *_Nullable) selectedViewController;
+- (UIViewController *_Nullable) viewControllerAtIndex:(NSUInteger) index;
+
 - (void) cleanCache;
 - (void) reloadData;
 - (void) selectAtIndex: (NSUInteger) index;
