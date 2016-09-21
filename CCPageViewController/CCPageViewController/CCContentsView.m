@@ -228,7 +228,7 @@ typedef NS_ENUM(NSUInteger, CCDataSourceType) {
     if (_cleanCacheImmediately) {
         [_cachedContentViewControllers enumerateKeysAndObjectsUsingBlock:^(NSNumber * _Nonnull key, UIViewController * _Nonnull cachedViewController, BOOL * _Nonnull stop) {
             // if (key.integerValue < (index - 1) || key.integerValue > (index + 1)) {
-            if (key.integerValue < (index - self.leftCacheSize) || key.integerValue > (index + self.rightCacheSize)) {
+            if (key.integerValue < ((NSInteger)index - (NSInteger)self.leftCacheSize) || key.integerValue > ((NSInteger)index + (NSInteger)self.rightCacheSize)) {
                 [self.dataSource contentsView:self willRemoveViewController:cachedViewController];
                 [cachedViewController.view removeFromSuperview];
                 [self.dataSource contentsView:self didRemoveViewController:cachedViewController];
