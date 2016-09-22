@@ -256,17 +256,21 @@
 }
 
 - (void) scrollToSelectedItem {
-    CGFloat btnX = _selectedItem.frame.origin.x;
-    CGFloat btnCenterX = _selectedItem.center.x;
     CGPoint scrollPoint;
     
-    if(btnCenterX > _scrollView.center.x
-       && _scrollView.contentSize.width + _scrollView.center.x - _scrollView.frame.size.width > btnCenterX){
-        scrollPoint = CGPointMake(btnX - _scrollView.center.x + (_selectedItem.frame.size.width/2), 0.0f);
-    } else if(_scrollView.contentSize.width + _scrollView.center.x - _scrollView.frame.size.width < btnCenterX){
-        scrollPoint = CGPointMake(_scrollView.contentSize.width - _scrollView.bounds.size.width,0.0f);
-    } else if(btnCenterX < _scrollView.center.x){
+    if (_scrollView.contentSize.width <= self.frame.size.width) {
         scrollPoint = CGPointMake(0.0f,0.0f);
+    } else {
+        CGFloat btnX = _selectedItem.frame.origin.x;
+        CGFloat btnCenterX = _selectedItem.center.x;
+        
+        if (btnCenterX <= _scrollView.frame.size.width/2) {
+            scrollPoint = CGPointMake(0.0f,0.0f);
+        } else if (_scrollView.contentSize.width - btnCenterX <= _scrollView.frame.size.width / 2) {
+            scrollPoint = CGPointMake(_scrollView.contentSize.width - _scrollView.frame.size.width, 0.0f);
+        } else {
+            scrollPoint = CGPointMake(btnCenterX - _scrollView.center.x, 0);
+        }
     }
     [_scrollView setContentOffset:scrollPoint animated:YES];
 }
